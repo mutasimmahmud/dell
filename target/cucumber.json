@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Link is working",
+        "description": "",
+        "id": "dell;link-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3107785300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open URL",
+            "match": {
+              "location": "dellstepdefinition.open_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3156583500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click deals link",
+            "match": {
+              "location": "dellstepdefinition.click_deals_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111505700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Accessories deals link",
+            "match": {
+              "location": "dellstepdefinition.click_Accessories_deals_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1359959100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Software deals",
+            "match": {
+              "location": "dellstepdefinition.click_Software_deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189025800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close Window",
+            "match": {
+              "location": "dellstepdefinition.close_Window()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dell",
+    "description": "",
+    "id": "dell",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/dell.feature"
+  }
+]
